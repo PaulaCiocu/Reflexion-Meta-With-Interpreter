@@ -1,0 +1,11 @@
+NewProductType CheckingAccount
+NewPropertyType Owner String
+AddPropType CheckingAccount Owner
+NewProductType SavingsAccount
+NewPropertyType InterestRate Double
+AddPropType SavingsAccount InterestRate
+NewProduct BobsCheckingAccount CheckingAccount
+AddNewProperty BobsCheckingAccount Owner Bob Bobbson
+NewProduct JohnsCheckingAccount CheckingAccount
+AddNewProperty JohnsCheckingAccount Owner John Jones
+RemovePropType CheckingAccount Owner
